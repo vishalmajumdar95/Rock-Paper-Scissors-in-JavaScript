@@ -1,0 +1,58 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    background: black;
+    color: rgb(0, 255, 221);
+    margin: 3em;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+button {
+    background: rgb(0, 255, 221);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+button:active {
+    background: green;
+}
+
+.scoreboard {
+    width: 14em;
+    margin: auto;
+    border: 1px solid rgb(0, 255, 221);
+}
+
+.scoreboard h2 {
+    border-bottom: 1px solid rgb(0, 255, 221);
+    margin: 0;
+    padding: 10px;
+}
+
+.scoreboard table {
+    margin: 10px auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.scoreboard th,
+.scoreboard td {
+    text-align: center;
+}
+
+.scoreboard td {
+    font-size: 3em;
+    padding: 0 20px;
+}
+
+#status {
+    margin-top: 20px;
+}
